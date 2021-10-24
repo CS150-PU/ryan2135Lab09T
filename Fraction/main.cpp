@@ -1,15 +1,15 @@
-//****************************************************************************
+//**********************************************************************
 // File name:			main.cpp
 // Author:				Computer Science, Pacific University
 // Date:					10/23/21
 // Class:					CS150
 // Assignment:		Lab09
 // Purpose:				This program enters a simple fraction's numerator and 
-//								denominator.The original fraction is outputted along with
-//								the reduced version of the fraction. Some simple error 
-//								checking is done such as divide by zero.
+//								denominator.The original fraction is outputted along 
+//								with the reduced version of the fraction. Some simple  
+//								error checking is done such as divide by zero.
 // Hours: 
-//****************************************************************************
+//**********************************************************************
 
 #include <iostream>
 #include <string>
@@ -25,16 +25,17 @@ int minimum (int num1, int num2);
 int greatestCommonDivisor (int num1, int num2);
 void printFractionReduced (int numerator, int denominator);
 
-/*****************************************************************************
+/***********************************************************************
 Function:			main
 
-Description:	A simple driver that tests the inputting of a fraction and the
-							outputting of the fraction along with the reduced fraction.
+Description:	A simple driver that tests the inputting of a fraction and
+							the outputting of the fraction along with the reduced 
+							fraction.
 
 Parameters:		None
 
 Returned:			return status
-*****************************************************************************/
+***********************************************************************/
 int main () {
 	const string HEADING_NAME = "Fun With Fractions";
 
@@ -57,7 +58,7 @@ int main () {
 	return EXIT_SUCCESS;
 }
 
-/*****************************************************************************
+/***********************************************************************
 Function:			printAsterisks
 
 Description:	Outputs the specified number of asterisks
@@ -65,11 +66,11 @@ Description:	Outputs the specified number of asterisks
 Parameters:		howMany - number of asterisks to output
 
 Returned:			None
-*****************************************************************************/
+***********************************************************************/
 void printAsterisks (int howMany) {
 
 }
-/*****************************************************************************
+/***********************************************************************
 Function:			printHeading
 
 Description:	Outputs a heading by outputting a name between a row of
@@ -78,28 +79,28 @@ Description:	Outputs a heading by outputting a name between a row of
 Parameters:		name - name of the heading
 
 Returned:			None
-*****************************************************************************/
+***********************************************************************/
 void printHeading (string title) {
 	const int NUM_ASTERISKS = static_cast<int> (title.length ());
 
 }
 
-/*****************************************************************************
+/***********************************************************************
 Function:			getPositiveInt
 
-Description:	Get's a positive integer from stdin (keyboard). Validate with a
-							do while until integer is >= 0
+Description:	Get's a positive integer from stdin (keyboard). Validate 
+							with a do while until integer is >= 0
 
 Parameters:		None
 
 Returned:			An integer greater than or equal to 0
-*****************************************************************************/
+***********************************************************************/
 int getPositiveInt (string prompt) {
 
 	return 0;
 }
 
-/*****************************************************************************
+/***********************************************************************
 Function:			printFraction
 
 Description:	Prints a fraction of the form numerator / denominator
@@ -108,12 +109,12 @@ Parameters:		numerator  - the numerator of a fraction
 							denominator - the denominator of a fraction
 
 Returned:			None
-*****************************************************************************/
+***********************************************************************/
 void printFraction (int numerator, int denominator) {
 
 }
 
-/*****************************************************************************
+/***********************************************************************
 Function:			minimum
 
 Description:	Finds the minimum value of two integers
@@ -122,37 +123,39 @@ Parameters:		num1 - first integer
 							num2 - second integer
 
 Returned:			The smallest value between num1 and num2
-*****************************************************************************/
+***********************************************************************/
 int minimum (int num1, int num2) {
 
 	return 0;
 }
 
-/*****************************************************************************
+/***********************************************************************
 Function:			greatestCommonDivisor
 
-Description:	Finds the greatest common divisor between two integer values
+Description:	Finds the greatest common divisor between two integer 
+							values
 
 Parameters:		num1 - first integer
 							num2 - second integer
 
 Returned:			The greatest common divisor of two integers
-*****************************************************************************/
+***********************************************************************/
 int greatestCommonDivisor (int num1, int num2) {
 
 	return 0;
 }
 
-/*****************************************************************************
+/***********************************************************************
 Function:			printFractionReduced
 
-Description:	Prints a fraction in reduced form without changing the fraction
+Description:	Prints a fraction in reduced form without changing the 
+							fraction
 
 Parameters:		numerator  - the numerator of a fraction
 							denominator - the denominator of a fraction
 
 Returned:			None
-*****************************************************************************/
+***********************************************************************/
 void printFractionReduced (int numerator, int denominator) {
 
 }
