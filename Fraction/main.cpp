@@ -80,7 +80,7 @@ Parameters:		name - name of the heading
 Returned:			None
 *****************************************************************************/
 void printHeading (string title) {
-	const int NUM_ASTERISKS = title.length ();
+	const int NUM_ASTERISKS = static_cast<int> (title.length ());
 
 }
 
