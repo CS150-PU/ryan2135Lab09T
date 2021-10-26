@@ -39,7 +39,7 @@ Returned:			return status
 ***********************************************************************/
 int main () {
 	const string HEADING_NAME = "Fun With Fractions";
-	const int ROUND_AMOUNT = 3;
+	const int ROUND_AMOUNT = 2;
 
 	//int numerator, denominator;
 
@@ -53,6 +53,13 @@ int main () {
 
 	//cout << endl << "Original Fraction: ";
 	//printFraction (numerator, denominator);
+
+	//cout << endl << endl << "Support Functions: " << endl;
+	//cout << "minimum (16, 4): " << minimum (16, 4) << endl;
+	//cout << "gcd (16, 12): " << greatestCommonDivisor (16, 4) << endl;
+
+	//cout << endl << "Reduced Fraction: ";
+	//printFractionReduced (numerator, denominator);
 
 	//cout << endl << "Rounded Decimal Form: ";
 	//cout << roundFraction (static_cast<double> (numerator) /
