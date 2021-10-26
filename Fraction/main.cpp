@@ -1,7 +1,7 @@
 //**********************************************************************
 // File name:			main.cpp
 // Author:				Computer Science, Pacific University
-// Date:					10/23/21
+// Date:					10/26/21
 // Class:					CS150
 // Assignment:		Lab09
 // Purpose:				This program enters a simple fraction's numerator and 
@@ -24,6 +24,7 @@ void printFraction (int numerator, int denominator);
 int minimum (int num1, int num2);
 int greatestCommonDivisor (int num1, int num2);
 void printFractionReduced (int numerator, int denominator);
+double roundFraction (double aDouble, int anInt);
 
 /***********************************************************************
 Function:			main
@@ -38,6 +39,7 @@ Returned:			return status
 ***********************************************************************/
 int main () {
 	const string HEADING_NAME = "Fun With Fractions";
+	const int ROUND_AMOUNT = 3;
 
 	//int numerator, denominator;
 
@@ -52,8 +54,11 @@ int main () {
 	//cout << endl << "Original Fraction: ";
 	//printFraction (numerator, denominator);
 
-	//cout << endl << "Reduced Fraction: ";
-	//printFractionReduced (numerator, denominator);
+	//cout << endl << "Rounded Decimal Form: ";
+	//cout << roundFraction (static_cast<double> (numerator) /
+	//	static_cast<double> (denominator),
+	//	ROUND_AMOUNT);
+	//cout << endl << endl;
 
 	return EXIT_SUCCESS;
 }
@@ -105,7 +110,7 @@ Function:			printFraction
 
 Description:	Prints a fraction of the form numerator / denominator
 
-Parameters:		numerator  - the numerator of a fraction
+Parameters:		numerator   - the numerator of a fraction
 							denominator - the denominator of a fraction
 
 Returned:			None
@@ -151,11 +156,25 @@ Function:			printFractionReduced
 Description:	Prints a fraction in reduced form without changing the 
 							fraction
 
-Parameters:		numerator  - the numerator of a fraction
+Parameters:		numerator   - the numerator of a fraction
 							denominator - the denominator of a fraction
 
 Returned:			None
 ***********************************************************************/
 void printFractionReduced (int numerator, int denominator) {
 
+}
+
+/***********************************************************************
+Function:			roundFraction
+
+Description:	Rounds a double to the number of decimal places specified.
+
+Parameters:		aDouble - the double to be rounded
+							anInt		- the number of decimal places to round to
+
+Returned:			A double rounded to specified number of places
+***********************************************************************/
+double roundFraction (double aDouble, int anInt) {
+	return 0.0;
 }
