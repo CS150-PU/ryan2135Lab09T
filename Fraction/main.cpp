@@ -17,7 +17,7 @@
 
 using namespace std;
 
-void printAsterisks (int howMany);
+void printAsterisks (int totalAsterisks);
 void printHeading (string title);
 int getPositiveInt (string prompt);
 void printFraction (int numerator, int denominator);
@@ -75,11 +75,11 @@ Function:			printAsterisks
 
 Description:	Outputs the specified number of asterisks
 
-Parameters:		howMany - number of asterisks to output
+Parameters:		totalAsterisks - number of asterisks to output
 
 Returned:			None
 ***********************************************************************/
-void printAsterisks (int howMany) {
+void printAsterisks (int totalAsterisks) {
 
 }
 /***********************************************************************
@@ -88,7 +88,7 @@ Function:			printHeading
 Description:	Outputs a heading by outputting a name between a row of
 							asterisks
 
-Parameters:		name - name of the heading
+Parameters:		title - name of the heading
 
 Returned:			None
 ***********************************************************************/
