@@ -56,7 +56,7 @@ int main () {
 
 	//cout << endl << endl << "Support Functions: " << endl;
 	//cout << "minimum (16, 4): " << minimum (16, 4) << endl;
-	//cout << "gcd (16, 12): " << greatestCommonDivisor (16, 4) << endl;
+	//cout << "gcd (16, 12): " << greatestCommonDivisor (16, 12) << endl;
 
 	//cout << endl << "Reduced Fraction: ";
 	//printFractionReduced (numerator, denominator);
